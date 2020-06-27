@@ -1,9 +1,8 @@
 # PYFractals
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/brettrhenderson/pyFractals/master?filepath=Sierpinski_Triangle.ipynb)
 <p align="center">
-    <img src="videos/Sierpinsky.png" width=400/>
+    <img src="Sierpinsky.png" width=400/>
 </p>
-![Sierpinsky](videos/Sierpinsky.png?raw=true)
 
 This was just a fun Jupyter Notebook that I played around with while
 procrastinating on my chemistry research. While trying to find a video of when
