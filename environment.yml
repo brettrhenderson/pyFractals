@@ -1,0 +1,10 @@
+name: fractals
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip:
+    - matplotlib==3.2.1
+    - numpy==1.18.3
+    - pandas==1.0.3
+    - jupyter

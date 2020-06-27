@@ -30,19 +30,22 @@ practicing and *animating!* some basic tree traversal algorithms.
 ## Accessing the Notebook
 ### On Your laptop
 First, set up a virtual environment to run the notebook. I have tested this Notebook
-using python 3.7, but it will ~probably~ work wit 3.5 or newer. Its only external
+using python 3.7, but it will *probably* work with 3.5 or newer. Its only external
 dependencies are numpy, matplotlib, and Jupyter, so if you are an Anaconda user
 you should be set with a basic environment.  I have frozen my working environment
-in [full_env.txt](requirements.txt) though as well, so if you are getting errors
+in [full_env.txt](full_env.txt) though as well, so if you are getting errors
 or are using a python virtualenv, run
 
 ```pip install -r full_env.txt```
 
-in your virtualenv to get the necessary dependencies. Alternatively, `requirements.txt`
-has the base requirements but does not include jupyter. This is used for building the
-notebook on [Binder](#on-binder) and means that if you were to run `pip install -r requirements.txt`,
-you would have to also install jupyter separately.  Now you can explore the
-notebook with
+in your virtualenv to get the necessary dependencies. The weird name for the requirements
+is to avoid conflicts with building the notebook environment on [Binder](#on-binder).
+In order to display animations in the notebook, however, you will also need to
+make sure that [ffmpeg](https://ffmpeg.org/download.html) is installed on your machine.  
+Alternatively, `environment.yml` can be used to create a conda environment that includes
+ffmpeg. This is used for building the notebook on [Binder](#on-binder). If you
+are a conda user, then, just run `conda env create -f environment.yml`. Now you
+can explore the notebook with
 
 ```jupyter notebook```
 
