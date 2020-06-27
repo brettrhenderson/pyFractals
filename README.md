@@ -1,7 +1,10 @@
 # PYFractals
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/brettrhenderson/pyFractals/master?filepath=Sierpinski_Triangle.ipynb)
 <p align="center">
     <img src="videos/Sierpinsky.png" width=400/>
 </p>
+![Sierpinsky](videos/Sierpinsky.png?raw=true)
+
 This was just a fun Jupyter Notebook that I played around with while
 procrastinating on my chemistry research. While trying to find a video of when
 Professor Oliver Knill created a [Miley Cyrus Wrecking Ball animation](https://www.thecrimson.com/flyby/article/2013/10/9/the-cyrus-infection-miley-crashes-math-21a/)
@@ -47,8 +50,8 @@ notebook with
 and then clicking on Sierpinski_Triangle.ipynb in the navigator.
 
 ### On Binder
-A fully interactive version of the notebook is also available on [Binder](#). Binder
-builds an environment for and allows you to run and change the notebook interactively
+A fully interactive version of the notebook is also available on [Binder](https://mybinder.org/v2/gh/brettrhenderson/pyFractals/master?filepath=Sierpinski_Triangle.ipynb).
+Binder builds an environment for and allows you to run and change the notebook interactively
 without needing to install anything on your own machine!
 
 ## Some Examples
