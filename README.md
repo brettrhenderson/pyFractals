@@ -30,30 +30,36 @@ practicing and *animating!* some basic tree traversal algorithms.
 ## Accessing the Notebook
 ### On Your laptop
 First, set up a virtual environment to run the notebook. I have tested this Notebook
-using python 3.7, but it will *probably* work with 3.5 or newer. Its only external
-dependencies are numpy, matplotlib, and Jupyter, so if you are an Anaconda user
-you should be set with a basic environment.  I have frozen my working environment
-in [full_env.txt](full_env.txt) though as well, so if you are getting errors
-or are using a python virtualenv, run
+using python 3.7, but it will *probably* work with 3.5 or newer.
+
+**Using virtualenv and pip**
+I have frozen my working environment in [full_env.txt](full_env.txt), so the environment
+can be recreated with
 
 ```pip install -r full_env.txt```
 
 in your virtualenv to get the necessary dependencies. The weird name for the requirements
 is to avoid conflicts with building the notebook environment on [Binder](#on-binder).
 In order to display animations in the notebook, however, you will also need to
-make sure that [ffmpeg](https://ffmpeg.org/download.html) is installed on your machine.  
+make sure that [ffmpeg](https://ffmpeg.org/download.html) is installed on your machine.
+
+**Using conda**  
 Alternatively, `environment.yml` can be used to create a conda environment that includes
 ffmpeg. This is used for building the notebook on [Binder](#on-binder). If you
-are a conda user, then, just run `conda env create -f environment.yml`. Now you
-can explore the notebook with
+are a conda user, then, just run
+
+```conda env create -f environment.yml```
+
+Now you can explore the notebook by running
 
 ```jupyter notebook```
 
 and then clicking on Sierpinski_Triangle.ipynb in the navigator.
 
 ### On Binder
-A fully interactive version of the notebook is also available on [Binder](https://mybinder.org/v2/gh/brettrhenderson/pyFractals/master?filepath=Sierpinski_Triangle.ipynb).
-Binder builds an environment for and allows you to run and change the notebook interactively
-without needing to install anything on your own machine!
+As mentioned earlier, a fully interactive version of the [notebook](https://mybinder.org/v2/gh/brettrhenderson/pyFractals/master?filepath=Sierpinski_Triangle.ipynb)
+is also available on Binder. Binder builds a Docker container containing a
+conda environment with all of the dependencies and allows you to run and change
+the notebook interactively without needing to install anything on your own machine!
 
 ## Some Examples
