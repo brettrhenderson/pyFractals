@@ -1,7 +1,7 @@
 # PYFractals
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/brettrhenderson/pyFractals/master?filepath=Sierpinski_Triangle.ipynb)
 <p align="center">
-    <img src="Sierpinsky.png" width=400/>
+    <img src="videos/logo.png" width=400/>
 </p>
 
 This was just a fun Jupyter Notebook that I played around with while
