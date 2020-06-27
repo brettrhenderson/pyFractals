@@ -140,6 +140,9 @@ plt.axis('equal')
 plt.show()
 ```
 
+This should output
+![3 Level Fractal](images/sierp_tree.png)
+
 ### Animate the Drawing of a Tree
 
 So far this is only implemented for the actual **Tree** class and not for arbitrary
